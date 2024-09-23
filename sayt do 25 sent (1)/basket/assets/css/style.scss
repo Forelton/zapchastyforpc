@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Instrument Sans;
+    src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    font-family: Inter;
+    src: url(../font/Inter_24pt-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.basket{
+    background-color: #8013D6;
+    padding-bottom: 200px;
+
+    &__fon{
+        background-color: #fff;
+        margin-left: 139px;
+        margin-right: 139px;
+        height: 2833;
+        border-radius: 100px;
+        
+    }
+    &__name{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 96px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 50px;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    }
+
+    &__man__img{
+        margin-left: 364px;
+        padding-top: 77px;
+        margin-bottom: 37px;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    }
+
+    &__empty__text{
+        text-align: center;
+        font-size: 96px;
+        font-weight: bold;
+        margin-bottom: 117px;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    }
+
+    &__search{
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 117px;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    }
+
+    &__payment{
+        font-size: 80px;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+        text-align: center;
+        margin-bottom: 81px;
+        font-weight: bold;
+    }
+
+    &__choise__card{
+        margin-left: 257px;
+    }
+
+    &__delivery__choise{
+        text-align: center;
+        font-size: 80px;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+        font-weight: bold;
+    }
+
+    &__courier{
+        display: flex;
+        margin-left: 330px;
+        padding-top: 107px;
+    }
+
+    &__courier__text{
+        margin-top: 20px;
+        font-size: 46px;
+        padding-left: 35px;
+        font-weight: bolder;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    }
+
+    &__self__pickup{
+        display: flex;
+    }
+
+    &__self__pickup{
+        padding-top: 107px;
+        display: flex;
+        padding-bottom: 140px;
+        margin-left: 330px;
+    }
+
+    &__self__pickup__text{
+        padding-left: 35px;
+        margin-top: 20px;
+        font-size: 46px;
+        font-weight: bolder;
+        font-family: Instrument Sans;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    }
+}

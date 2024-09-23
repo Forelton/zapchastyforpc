@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Instrument Sans;
+    src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+    font-family: Inter;
+    src: url(../font/Inter_24pt-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    background-color: #8013D6;
+    &__out__registered{
+        display: flex;
+        padding-top: 40px;
+    }
+
+    &__out__registered__text{
+        font-size: 90px;
+        color: #fff;
+        src: url(../font/InstrumentSans_Condensed-Bold.ttf);
+        font-family: Inter;
+        src: url(../font/Inter_24pt-SemiBold.ttf);
+        font-weight: bolder;
+        margin-left: 221px;
+    }
+
+    
+}
+
